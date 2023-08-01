@@ -5,6 +5,7 @@
 body{
     margin: 0;
     padding: 0;
+    padding-bottom: 10px;
 }
 
 header{
@@ -62,6 +63,7 @@ nav a:hover {
     background-position: center;
     background-size: cover;
     height: 700px;
+    width: 100%;
 }
 
 .column{
@@ -99,6 +101,7 @@ nav a:hover {
     display: flex;
     background-color: red;
     height: 210px; 
+    width: 100%;
 }
 
 .banner1, 
@@ -159,3 +162,276 @@ nav a:hover {
 .time{
     margin-bottom: 7px;
 }
+
+#geral{
+    display: flex;
+    justify-content: center;
+}
+
+#geral section{
+    flex: 2;
+}
+
+#geral aside{
+    flex: 1;
+}
+
+.widget_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text{
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget_title_bar{
+    width: 50px;
+    height: 3px;
+    background-color: #69BFB1;
+    margin-top: 10px;
+}
+
+.rect{
+    margin-top: 20px;
+    height: 155px;
+    background-color: #62AF90;
+    width: 155px;
+}
+
+.apptext{
+    color: gray;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.primeiralinha{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.telapp,
+.emailapp,
+.pageapp {
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    border-bottom: 1px solid rgb(173, 172, 172);
+}
+
+.telapp p,
+.emailapp p,
+.pageapp p {
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article{
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+article a {
+    text-decoration: none;
+}
+
+article .news_data{
+    display: flex;
+}
+
+article .news_posted_at{
+    background-color: #376755;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 2px;
+}
+
+article .news_comments{
+    background-color: #62AF90;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+article .news_thumb{
+    margin-top:30px;
+}
+
+article .news_thumb img{
+    width: 100%;
+    height: auto;    
+}
+
+article .news_title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #000000;
+    font-size: 23px;
+}
+
+article .news_resume{
+    color: #5c5c5c;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+footer{
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.footer_menu{
+    display: flex;
+}
+
+.footer_menu a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+
+}
+
+.fm1, .fm2, .fm3{
+    flex: 1;
+    color: #FFFFFF;
+}
+
+.fm1{
+    background-color:hsl(170, 100%, 40%);
+}
+
+
+.fm2{
+    background-color:hsl(170, 100%, 34%) ;
+}
+
+.fm3{
+    background-color:hsl(170, 100%, 20%) ;
+}
+
+.footer_area{
+    display: flex;
+    flex:1;
+}
+
+.footer_areaitem{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    color: #FFFFFF;
+}
+
+.flexColumn{
+    flex-direction: column;
+}
+
+footer .widget_title_text{
+    color:#FFFFFF;
+}
+
+.footer_copy{
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.footer_menu h2{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.footer_menu p{
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.textodeapresentacao{
+    color: #5c5c5c;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.onde ul li{
+    color: #5c5c5c;
+    list-style: none;
+    font-size: 14px;
+}
+
+.onde ul{
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.onde{
+    display: flex;
+    padding-right: 30px;
+    padding-left: 0px;
+}
+
+.onde .endereco{
+    display: flex;
+    justify-content: space-between;
+}
+
+.onde .telefones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post1 a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.post1 .text{
+    color: #e0e0e0;
+    font-size: 13px;
+}
+
+.post1 .timepassed{
+    color: #62AF90;
+    font-size: 10px;
+}
+
+
+.ltt{
+    font-size: 13px;
+    color: #e0e0e0;
+    line-height: 20px;
+}
+
+.ltt {
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
